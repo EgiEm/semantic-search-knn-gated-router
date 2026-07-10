@@ -11,6 +11,7 @@ graph TD
     Root[Brigada Week 3] --> Day1[day 1: Embedding Space]
     Root --> Day2[day 2: Semantic Search]
     Root --> Day3[day 3: k-NN Router]
+    Root --> Day4[day 4: Gated Router]
     
     Day1 --> Day1_Script[run_challenge.py]
     Day1 --> Day1_CSV[embedded_intents.csv]
@@ -21,6 +22,9 @@ graph TD
     
     Day3 --> Day3_Script[evaluate.py]
     Day3 --> Day3_Sub[submission.md]
+    
+    Day4 --> Day4_Script[evaluate.py]
+    Day4 --> Day4_Sub[submission.md]
 ```
 
 ---
@@ -52,6 +56,15 @@ graph TD
 * **Files:**
   * [evaluate.py](file:///c:/Users/beKs/Desktop/Brigada/Brigada%20Week%203/day%203/evaluate.py): Evaluator script parsing float vectors, running train/test samples, resolving voting ties, and writing metrics.
   * [submission.md](file:///c:/Users/beKs/Desktop/Brigada/Brigada%20Week%203/day%203/submission.md): Markdown report detailing implementation, accuracy levels, confusion grid, and failure case teardowns.
+
+---
+
+### 🛡️ [Day 4](file:///c:/Users/beKs/Desktop/Brigada/Brigada%20Week%203/day%204) — Gate Your Router & Chart Precision/Coverage
+* **Objective:** Implement a confidence gate over the k-NN router using threshold and margin constraints, and evaluate precision/coverage curves.
+* **Core Logic:** Implements `confident()` checking if top-1 similarity is $\ge$ `threshold` and similarity margin is $\ge$ `margin_min` to either route or return `"fallback to LLM"`. The script runs sweeps on the test set and failure cases under a stable-hash noise generator to ensure reproducibility.
+* **Files:**
+  * [evaluate.py](file:///c:/Users/beKs/Desktop/Brigada/Brigada%20Week%203/day%204/evaluate.py): Gate evaluation backend running hyperparameter sweeps.
+  * [submission.md](file:///c:/Users/beKs/Desktop/Brigada/Brigada%20Week%203/day%204/submission.md): Markdown report documenting the gate implementation, sweep table, chosen operating point, and abstention examples.
 
 ---
 
