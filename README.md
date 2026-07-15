@@ -1,6 +1,6 @@
-# 🚀 Brigada Assignments - Week 3 · Natural Language Processing & Vector Space
+# 🔍 Semantic Search & Gated k-NN Router
 
-This repository documents the daily labs, implementations, and evaluations of NLP architectures, embedding representations, and router classifiers developed during **Week 3 of the Brigada Internship**.
+This repository documents the daily labs, implementations, and evaluations of NLP architectures, embedding representations, and router classifiers developed during the training program.
 
 ---
 
