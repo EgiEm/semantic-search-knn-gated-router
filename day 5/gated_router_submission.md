@@ -170,3 +170,5 @@ Below is the official Week 3 contract. Week 4 will inherit this config as its fa
 
 - **Model Artifact File:** [router_v2.json](file:///c:/Users/beKs/Desktop/Brigada/Brigada%20Week%203/day%205/router_v2.json) (Contains the 42 example-bank vectors plus the chosen gate hyperparameters).
 - **Evaluation & Cross-Validation Script:** [evaluate.py](file:///c:/Users/beKs/Desktop/Brigada/Brigada%20Week%203/day%205/evaluate.py)
+
+<!-- commit message update -->
