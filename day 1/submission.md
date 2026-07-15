@@ -37,3 +37,5 @@ The following table shows 5 hand-picked paraphrase pairs (including 3 cross-lang
 1. **Context over Characters**: Text embeddings capture the conceptual meaning and underlying intent of a sentence rather than the literal spelling of its words, grouping synonyms like "call" and "ring" together.
 2. **Cross-Lingual Alignment**: Multilingual models like `bge-m3` embed corresponding sentences across languages (e.g. English and German) near each other in space, matching "Ruf Mama an" directly to "call mom" despite sharing no words.
 3. **Lexical Limitations**: Lexical approaches like TF-IDF treat unique words as distinct perpendicular dimensions, failing completely on paraphrases and translations by scoring their similarity as zero.
+
+<!-- commit message update -->
