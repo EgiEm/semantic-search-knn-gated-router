@@ -136,3 +136,5 @@ The table below showcases the lexical limitations of a Week-2 TF-IDF model again
 ### Analysis Key Takeaways
 1. **Zero Lexical Overlap**: For paraphrase queries like `"ring mom"` or German queries like `"Ruf Mama an"`, a lexical TF-IDF search returns a score of `0.0000` because they share no characters/words with sentences like `"please dial my grandmother"` or `"give my dad a ring"`.
 2. **Robust Semantic Recovery**: The semantic encoder maps words based on conceptual meanings (synonyms and translations) into the same space, letting our custom `cosine()` score them high (`> 0.9`) and resolve the correct intent perfectly.
+
+<!-- commit message update -->
