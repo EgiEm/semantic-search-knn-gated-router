@@ -118,3 +118,5 @@ Below are the details for the queries where the gate correctly abstained and rou
 - **Gate Decision:** `fallback to LLM`
 - **Why it was right to fall back:** This query is entirely out of scope for our router. However, it gets pulled towards the `answer_question` centroid due to the generic question word 'how'. Since it does not match any specific database intents, its margin to the next class neighbor is tiny (0.0012 < 0.0025), letting the margin gate block it.
 
+
+<!-- commit message update -->
